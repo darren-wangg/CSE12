@@ -31,14 +31,14 @@ public class TestMyPlayList {
     }
 
 
-    /** @Test
+    @Test
     public void testIterator() {
         MyListIterator<Song> iter = obj.myListIterator();
         for(int i=0;i<obj.size()/2;i++){
             iter.next();
         }
         Assert.assertEquals(iter.next(), 5);
-    } **/
+    }
 
     @Test(expected = IndexOutOfBoundsException.class)
     public void testException() {
