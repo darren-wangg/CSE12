@@ -6,12 +6,6 @@
  */
 package com.cse.ds;
 
-/**
- * 
- * @author harsh
- *
- * @param <T>
- */
 public interface Sorting<T> {
 	
 	public abstract void sort(T[] array, boolean ascending);
