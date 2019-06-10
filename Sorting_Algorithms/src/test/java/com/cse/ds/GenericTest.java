@@ -51,7 +51,7 @@ public class GenericTest {
 	arr2r = new Integer[]{2,2,1,1,0,0};
     }
     
-    /* @Test
+    @Test
     public void testSelectionIntegerAscending()
     {
     	selectionSortInteger.sort(arr1, true);
@@ -194,7 +194,7 @@ public class GenericTest {
     	System.out.println("Actual: " + Arrays.toString(testArr));
     	System.out.println("Expected: " + Arrays.toString(testArrOrder));
     	Assert.assertArrayEquals(testArr, testArrOrder);
-    } */
+    }
 
     @Test
     public void testBubbleSortRuntime() {
