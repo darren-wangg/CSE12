@@ -14,9 +14,9 @@ import java.util.Arrays;
 public class Heap {
 	
 	// stores data in accoradance with heap rules.
-    private Tuple[] data;
+        private Tuple[] data;
 	// keeps track last index where element inserted.
-    private int last_idx;
+        private int last_idx;
 
 	private static final int HALF_DIVISOR = 2;
 	
